@@ -1,0 +1,10 @@
+let favPlaces:string[]=["UAE","akorea","bjapan","india"];
+console.log ("original order:",favPlaces);
+console.log("alphabetic order:",[...favPlaces].sort()); 
+console.log ("original order:",favPlaces);
+console.log("alphabetic order:",[...favPlaces].sort().reverse()); 
+console.log ("original order:",favPlaces);
+favPlaces.reverse();
+console.log("reverse order:",favPlaces);
+favPlaces.reverse();
+console.log("original order:",favPlaces);
